@@ -200,10 +200,10 @@ wezterm.on(
 
     -- TODO: make colors configurable
     local rainbow = {
+      conf.resolved_palette.ansi[1],
       conf.resolved_palette.ansi[2],
-      conf.resolved_palette.indexed[16],
-      conf.resolved_palette.ansi[4],
       conf.resolved_palette.ansi[3],
+      conf.resolved_palette.ansi[4],
       conf.resolved_palette.ansi[5],
       conf.resolved_palette.ansi[6],
     }
